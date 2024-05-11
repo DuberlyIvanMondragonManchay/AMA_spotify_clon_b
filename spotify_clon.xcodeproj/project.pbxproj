@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		FBE39A652BF0087E00B623A3 /* spotify_clonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE39A642BF0087E00B623A3 /* spotify_clonApp.swift */; };
-		FBE39A672BF0087E00B623A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE39A662BF0087E00B623A3 /* ContentView.swift */; };
 		FBE39A692BF0087F00B623A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE39A682BF0087F00B623A3 /* Assets.xcassets */; };
 		FBE39A6C2BF0087F00B623A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE39A6B2BF0087F00B623A3 /* Preview Assets.xcassets */; };
+		FBE39A732BF00ABC00B623A3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE39A722BF00ABC00B623A3 /* SignInView.swift */; };
+		FBE39A752BF010D700B623A3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE39A742BF010D700B623A3 /* logo.png */; };
+		FBE39A7C2BF0134100B623A3 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE39A7B2BF0134100B623A3 /* TitleView.swift */; };
+		FBE39A7E2BF017B600B623A3 /* ButtonSingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE39A7D2BF017B600B623A3 /* ButtonSingInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBE39A612BF0087E00B623A3 /* spotify_clon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotify_clon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE39A642BF0087E00B623A3 /* spotify_clonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotify_clonApp.swift; sourceTree = "<group>"; };
-		FBE39A662BF0087E00B623A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBE39A682BF0087F00B623A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE39A6B2BF0087F00B623A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBE39A722BF00ABC00B623A3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FBE39A742BF010D700B623A3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Downloads/Brand/logo.png; sourceTree = "<group>"; };
+		FBE39A7B2BF0134100B623A3 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		FBE39A7D2BF017B600B623A3 /* ButtonSingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSingInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,11 @@
 		FBE39A632BF0087E00B623A3 /* spotify_clon */ = {
 			isa = PBXGroup;
 			children = (
+				FBE39A762BF0128E00B623A3 /* components */,
 				FBE39A642BF0087E00B623A3 /* spotify_clonApp.swift */,
-				FBE39A662BF0087E00B623A3 /* ContentView.swift */,
+				FBE39A722BF00ABC00B623A3 /* SignInView.swift */,
 				FBE39A682BF0087F00B623A3 /* Assets.xcassets */,
+				FBE39A742BF010D700B623A3 /* logo.png */,
 				FBE39A6A2BF0087F00B623A3 /* Preview Content */,
 			);
 			path = spotify_clon;
@@ -65,6 +73,15 @@
 				FBE39A6B2BF0087F00B623A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBE39A762BF0128E00B623A3 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FBE39A7B2BF0134100B623A3 /* TitleView.swift */,
+				FBE39A7D2BF017B600B623A3 /* ButtonSingInView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,7 @@
 			files = (
 				FBE39A6C2BF0087F00B623A3 /* Preview Assets.xcassets in Resources */,
 				FBE39A692BF0087F00B623A3 /* Assets.xcassets in Resources */,
+				FBE39A752BF010D700B623A3 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE39A672BF0087E00B623A3 /* ContentView.swift in Sources */,
+				FBE39A7E2BF017B600B623A3 /* ButtonSingInView.swift in Sources */,
+				FBE39A732BF00ABC00B623A3 /* SignInView.swift in Sources */,
 				FBE39A652BF0087E00B623A3 /* spotify_clonApp.swift in Sources */,
+				FBE39A7C2BF0134100B623A3 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
